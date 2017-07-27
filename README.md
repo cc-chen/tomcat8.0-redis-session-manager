@@ -14,8 +14,8 @@ tomcat版本
 ---
 添加下面的配置到tomcat的context.xml中
 
-    <Valve className="com.s.tomcat.redissessions.RedisSessionHandlerValve"/> 
-	<Manager className="com.s.tomcat.redissessions.RedisSessionManager" 
+    <Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve"/> 
+	<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager" 
 			  host="192.168.10.162"
 			  port="6379"
 			  database="0" 
@@ -29,6 +29,9 @@ tomcat版本
 - tomcat8-redis-session-manager.jar
 - jedis-2.5.2.jar
 - commons-pool2-2.2.jar
+
+支持
+--
 
 感谢
 ---
